@@ -1,0 +1,250 @@
+.retail-modal {
+    font-size: 15px;
+    line-height: 1.50;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+.retail-modal .retail-modal-table-holder table {
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 100%;
+    max-height: 160px;
+    margin-top: 5px;
+}
+.retail-modal .spec-text {
+    font-size: 0.9em;
+    color: #606060;
+    cursor: default;
+    font-weight: 600;
+}
+
+.retail-modal-table-spec {
+    width: 100%;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.retail-modal .retail-modal-table-spec i {
+    margin-right: 3px;
+    font-size: 1em;
+}
+.retail-modal .screens {
+    margin-bottom: 5px;
+}
+.retail-modal .buy-block {
+    margin-top: 1px;
+    height: 40px;
+}
+.retail-modal .retail-modal-skidka {
+    width: 35%;
+    height: 100%;
+    /*color: #fff;*/
+    font-size: 1em;
+    display: inline-block;
+    float: left;
+    border-right: 1px #fff solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.retail-modal .retail-modal-skidka-item {
+    margin-left: 5px;
+    font-size: 1em;
+}
+.retail-modal .retail-modal-price {
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    float: right;
+    font-size: 1.1em;
+    /*color: #fff;*/
+    text-align: center;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+}
+.retail-modal .buy-btn {
+    width: 100%;
+    background-color: #00a80b;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-top: 1px #fff solid;
+}
+.retail-modal .buy-btn:hover {
+    color: #fff;
+    background-color: #4caf50;
+}
+/*.retail-modal .game-descr {
+    margin-top: 5px;
+    padding-left: 15px;
+}*/
+.retail-modal .screens .col-md-6:first-child {
+    padding-right: 2.5px !important;
+}
+.retail-modal .screens .col-md-6:last-child {
+    padding-left: 2.5px;
+}
+.retail-modal .red-tooltip + .tooltip > .tooltip-inner {
+    background-color: #00a80b;
+}
+.retail-modal .red-tooltip + .tooltip > .tooltip-arrow {
+    border-top-color:#00a80b;
+    /*background-color: #00a80b;*/
+}
+.retail-modal .title-buy {
+}
+.retail-modal .overlay-price {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    border: 0.5px solid white;
+    border-left: none;
+    padding-top: 5px;
+    z-index: 999;
+}
+.retail-modal .overlay-price span {
+    vertical-align: middle;
+}
+.retail-modal .overlay span {
+    position: absolute;
+    display: block;
+    bottom: 50%;
+    margin-bottom: -25px;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 400;
+}
+.retail-modal .tab-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .retail-modal .retail-modal-skidka {
+        font-size: 0.9em;
+    }
+    .retail-modal .retail-modal-skidka-item {
+        margin-left: 2px;
+        font-size: 1em;
+    }
+    .retail-modal .retail-modal-price {
+        font-size: 0.9em;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*.retail-modal .spec-text {
+        font-size: 0.6em;
+    }*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+    .retail-modal .tab-content {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .retail-modal .tab-content {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+.retail-modal .modal-content {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.retail-modal .modal-header h4 {
+    color: #ffffff;
+}
+.retail-modal .modal-header .close {
+    font-weight: 300;
+    color: #FFFFFF;
+    text-shadow: none;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.retail-modal .btn {
+    min-width: 150px !important;
+    min-height: 50px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    border-radius: 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.retail-modal .btn-default {
+    /*color: #55acee;*/
+    border: 1px solid #cccccc;
+}
+.retail-modal img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1200px;
+    }
+}
+
+#retail-modal-price-id {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.retail-modal .before-description {
+    margin-bottom: 11px !important;
+}
+
+#retail-modal-sysreq-id {
+    margin-top: 15px;
+}
+
+
+/* RETAIL MODAL COLOR
+
+.retail-modal .modal-header {
+    background-color: #55acee;
+    color: #ffffff;
+}
+.retail-modal .retail-modal-table-spec i {
+    color: #55acee;
+}
+
+.retail-modal .buy-block {
+    background-color: #55acee;
+}
+.retail-modal .overlay-price {
+    background: #55acee;
+}
+
+.retail-modal .btn-default {
+    color: #55acee;
+}
